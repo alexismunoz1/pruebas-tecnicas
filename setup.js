@@ -7,7 +7,7 @@ console.log('🚀 Configurando guía de ejercicios algorítmicos...\n');
 try {
     // 1. Instalar dependencias
     console.log('📦 Instalando dependencias...');
-    execSync('npm install', { stdio: 'inherit' });
+    execSync('pnpm install', { stdio: 'inherit' });
     
     // 2. Generar estructura de ejercicios
     console.log('\n🏗️  Generando estructura de ejercicios...');
@@ -19,7 +19,7 @@ try {
     
     console.log('\n✅ ¡Configuración completada!');
     console.log('\n🎯 Próximos pasos:');
-    console.log('1. Ejecuta: npm test');
+    console.log('1. Ejecuta: pnpm test');
     console.log('2. Navega a cualquier ejercicio en src/level-X/');
     console.log('3. Lee el archivo .spec.md para entender el problema');
     console.log('4. Implementa tu solución y ejecuta los tests');

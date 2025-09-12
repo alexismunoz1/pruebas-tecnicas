@@ -12,9 +12,9 @@ Esta guía contiene 50 ejercicios algorítmicos organizados por niveles de dific
 
 ## Cómo usar
 
-1. Instala las dependencias: `npm install`
-2. Ejecuta el setup: `npm run setup`
-3. Ejecuta los tests: `npm test`
+1. Instala las dependencias: `pnpm install`
+2. Ejecuta el setup: `pnpm run setup`
+3. Ejecuta los tests: `pnpm test`
 4. Navega por cada nivel de dificultad
 5. Lee la explicación teórica de cada ejercicio
 6. Implementa tu solución
@@ -22,12 +22,12 @@ Esta guía contiene 50 ejercicios algorítmicos organizados por niveles de dific
 
 ## Comandos disponibles
 
-- `npm run setup` - Configura el proyecto completo
-- `npm test` - Ejecuta todos los tests
-- `npm run test:watch` - Ejecuta tests en modo watch
-- `npm run test:coverage` - Ejecuta tests con cobertura
-- `npm run generate` - Regenera la estructura de ejercicios
-- `npm run list` - Muestra lista de todos los ejercicios
+- `pnpm run setup` - Configura el proyecto completo
+- `pnpm test` - Ejecuta todos los tests
+- `pnpm run test:watch` - Ejecuta tests en modo watch
+- `pnpm run test:coverage` - Ejecuta tests con cobertura
+- `pnpm run generate` - Regenera la estructura de ejercicios
+- `pnpm run list` - Muestra lista de todos los ejercicios
 
 ## Especificación para Agentes
 
