@@ -1,0 +1,27 @@
+{
+  "name": "guia-ejercicios-algoritmicos",
+  "version": "1.0.0",
+  "description": "Guía de ejercicios algorítmicos para entrevistas técnicas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "generate": "node generate-exercises.js",
+    "setup": "node setup.js",
+    "list": "node src/index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/__tests__/**/*.test.js"],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js"
+    ]
+  }
+}
