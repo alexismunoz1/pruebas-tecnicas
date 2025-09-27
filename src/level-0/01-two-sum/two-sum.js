@@ -4,9 +4,7 @@
  * @return {number[]}
  */
 function twoSum(nums, target) {
-    const hashMap = new Map()
-    
-
+    // Tu código aquí
 }
 
 module.exports = twoSum;
