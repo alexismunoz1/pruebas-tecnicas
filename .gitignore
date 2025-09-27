@@ -108,3 +108,6 @@ logs
 
 # OS generated files
 Thumbs.db
+
+# Challenge files (exercise templates)
+*.challenge.js
