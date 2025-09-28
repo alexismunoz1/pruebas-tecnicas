@@ -1,4 +1,4 @@
-const climbStairs = require('./climbing-stairs');
+const climbStairs = require('./climbing-stairs.challenge');
 
 describe('Climbing Stairs', () => {
     test('2 pasos', () => {

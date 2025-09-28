@@ -1,4 +1,4 @@
-const findMedianSortedArrays = require('./median-of-two-sorted-arrays');
+const findMedianSortedArrays = require('./median-of-two-sorted-arrays.challenge');
 
 describe('Median of Two Sorted Arrays', () => {
     test('caso básico', () => {

@@ -1,4 +1,4 @@
-const isValid = require('./valid-parentheses');
+const isValid = require('./valid-parentheses.challenge');
 
 describe('Valid Parentheses', () => {
     test('paréntesis simples', () => {

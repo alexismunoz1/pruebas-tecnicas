@@ -1,4 +1,4 @@
-const maxSubArray = require('./maximum-subarray');
+const maxSubArray = require('./maximum-subarray.challenge');
 
 describe('Maximum Subarray', () => {
     test('caso básico', () => {

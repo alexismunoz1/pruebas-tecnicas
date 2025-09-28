@@ -1,4 +1,4 @@
-const singleNumber = require('./single-number');
+const singleNumber = require('./single-number.challenge');
 
 describe('Single Number', () => {
     test('caso básico', () => {

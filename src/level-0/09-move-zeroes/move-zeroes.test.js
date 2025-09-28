@@ -1,4 +1,4 @@
-const moveZeroes = require('./move-zeroes');
+const moveZeroes = require('./move-zeroes.challenge');
 
 describe('Move Zeroes', () => {
     test('caso básico', () => {

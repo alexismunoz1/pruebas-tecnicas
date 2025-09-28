@@ -1,4 +1,4 @@
-const missingNumber = require('./missing-number');
+const missingNumber = require('./missing-number.challenge');
 
 describe('Missing Number', () => {
     test('caso básico', () => {

@@ -1,4 +1,4 @@
-const isAnagram = require('./valid-anagram');
+const isAnagram = require('./valid-anagram.challenge');
 
 describe('Valid Anagram', () => {
     test('anagramas válidos', () => {

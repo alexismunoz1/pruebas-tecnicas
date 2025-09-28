@@ -1,4 +1,4 @@
-const maxProfit = require('./best-time-to-buy-sell-stock');
+const maxProfit = require('./best-time-to-buy-sell-stock.challenge');
 
 describe('Best Time to Buy and Sell Stock', () => {
     test('caso básico', () => {

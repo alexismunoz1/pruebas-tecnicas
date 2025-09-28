@@ -1,4 +1,4 @@
-const trap = require('./trapping-rain-water');
+const trap = require('./trapping-rain-water.challenge');
 
 describe('Trapping Rain Water', () => {
     test('caso básico', () => {

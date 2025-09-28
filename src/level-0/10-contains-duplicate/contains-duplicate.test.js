@@ -1,4 +1,4 @@
-const containsDuplicate = require('./contains-duplicate');
+const containsDuplicate = require('./contains-duplicate.challenge');
 
 describe('Contains Duplicate', () => {
     test('con duplicados', () => {

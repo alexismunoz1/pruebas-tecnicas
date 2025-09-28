@@ -1,4 +1,4 @@
-const threeSum = require('./three-sum');
+const threeSum = require('./three-sum.challenge');
 
 describe('3Sum', () => {
     test('caso básico', () => {

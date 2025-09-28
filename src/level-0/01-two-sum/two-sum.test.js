@@ -1,4 +1,4 @@
-const twoSum = require('./two-sum');
+const twoSum = require('./two-sum.challenge');
 
 describe('Two Sum', () => {
     test('caso básico', () => {
