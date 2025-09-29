@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-function twoSum(nums, target) {
+function twoSumHasMap(nums, target) {
     // creamos el hashmap
     const numMap = new Map();
     
@@ -28,4 +28,29 @@ function twoSum(nums, target) {
     return [];
 }
 
-module.exports = twoSum;
+function twoSumSorted(arr, target) {
+    // Paso 1: Inicializar punteros en extremos opuestos
+    let left = 0;                    // Puntero izquierdo al inicio del array
+    let right = arr.length - 1;      // Puntero derecho al final del array
+    
+    // Paso 2: Continuar mientras los punteros no se crucen
+    while (left < right) {
+        // Paso 3: Calcular la suma de los elementos actuales
+        const sum = arr[left] + arr[right];
+        
+        // Paso 4: Verificar si encontramos el objetivo
+        if (sum === target) {
+            return [left, right];    // Retornar índices si encontramos el par
+        }
+        
+        // Paso 5: Ajustar punteros según la suma
+        if (sum < target) {
+            left++;                  // Suma muy pequeña, mover puntero izquierdo hacia la derecha
+        } else {
+            right--;                 // Suma muy grande, mover puntero derecho hacia la izquierda
+        }
+    }
+    
+    // Paso 6: No se encontró solución
+    return [-1, -1];
+}
